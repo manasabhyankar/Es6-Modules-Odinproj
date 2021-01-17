@@ -1,0 +1,32 @@
+{
+  "name": "es6-modules",
+  "version": "1.0.0",
+  "description": "This is referencing the tutorial [Modern Javascript Explainined for Dinosaurs](https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress --mode=production",  
+    "watch": "webpack --progress --watch",
+    "serve": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manasabhyankar/ES6-Modules-OdinProj.git"
+  },
+  "author": "Manas Abhyankar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manasabhyankar/ES6-Modules-OdinProj/issues"
+  },
+  "homepage": "https://github.com/manasabhyankar/ES6-Modules-OdinProj#readme",
+  "dependencies": {
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.15.0",
+    "webpack-cli": "^4.3.1"
+  }
+}
